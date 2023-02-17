@@ -30,20 +30,17 @@
 ## Задание 2
 
 
-form.form>div.form__left>input.form__input*3
-form.form>div.form__right>input.form__input
-button.form__button
-span.form__text
+form.form>(div.form__box>input.form__input*3)+(div.form__box>input.form__input)+button.form__button+span.form__text
 
-header>nav.nav>ul.nav_list>li.nav__item*6
+header>nav.nav>ul.nav_list>li.nav__item*6>a.nav__link
 
-div.card>div.card__left+div.card__right
-div.card__left>h2.card__heading+span.card__text+button.card__button
-div.card__right>img.card__image
+div.card>(div.card__block>h2.card__heading+span.card__text+button.card__button)+(div.card__block>img.card__image)
 
 div.container__features>div.features*3>img.features__img+span.features__heading+p.feature__content
 
-![features](img/features.PNG)
+![form](img/form.PNG)
 ![header](img/header.PNG)
 ![card](img/form.PNG)
-![form](img/form.PNG)
+![features](img/features.PNG)
+
+
