@@ -32,15 +32,15 @@
 
 form.form>(div.form__box>input.form__input*3)+(div.form__box>input.form__input)+button.form__button+span.form__text
 
-header>nav.nav>ul.nav_list>li.nav__item*6>a.nav__link
+header>nav.nav>ul.nav_list>(li.nav__item*5>a.nav__link)+li.nav__item.item--color_dark>a.nav__link
 
-div.card>(div.card__block>h2.card__heading+span.card__text+button.card__button)+(div.card__block>img.card__image)
+div.card>(div.card__block>(h2.card__heading>span.heading--color_red)+span.card__text+button.card__button)+(div.card__block>img.card__image)
 
-div.container__features>div.features*3>img.features__img+span.features__heading+p.feature__content
+div.container__features>(div.features.features--color_grey.features--textcolor_grey>img.features__img+span.features__heading+p.feature__content)+(div.features.features--color_darkgrey>img.features__img+span.features__heading+p.feature__content)+(div.features.features--color_red>img.features__img+span.features__heading+p.feature__content)
 
-![form](img/form.PNG)
-![header](img/header.PNG)
-![card](img/form.PNG)
-![features](img/features.PNG)
+![form](/form.PNG)
+![header](/header.PNG)
+![card](/card.PNG)
+![features](/features.PNG)
 
 
